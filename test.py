@@ -1,5 +1,5 @@
 import unittest
-from Prog1 import summation
+from prog1 import summation
 
 class TestSum(unittest.TestCase):
     def test_list(self):

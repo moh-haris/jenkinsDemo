@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        // stage('Clone Git') {
-        //     steps {
-        //         git 'https://github.com/moh-haris/jenkinsDemo.git'
-        //     }
-        // }
+        stage('Clone Git') {
+            steps {
+                git 'https://github.com/moh-haris/jenkinsDemo.git'
+            }
+        }
 
         stage('Build Code') {
             steps {
